@@ -53,6 +53,7 @@ h1{
 .genner{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 0 30px;
