@@ -120,7 +120,7 @@
             width: 35%;
             margin: 0 10px;
             @media screen and (max-width: 480px) {
-              width: 250px !important;
+              width: 60% !important;
             }
             label {
               position: relative;
@@ -159,7 +159,9 @@
             border-radius: 50%;
             margin-right: 20px;
             @media screen and (max-width: 768px) {
-                margin-right: 0;
+                margin-right: 10px;
+                gap: 0 !important;
+                justify-content: right;
               }
             .name_admin {
               font-weight: bold;
