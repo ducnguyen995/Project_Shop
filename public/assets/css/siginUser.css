@@ -87,9 +87,12 @@ input[type="button"]{
     cursor: pointer;
 
 }
-input[type="button"]:hover{
-    opacity: 0.6;
+input[type="date"]{
+    border-radius: 0;
 }
+/* input[type="button"]:hover{
+    opacity: 0.6;
+} */
 .go-home{
     background: #27ae60 !important;
 }
