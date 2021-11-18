@@ -414,11 +414,11 @@ router.post("/getUser", controllerAdmin.getUser)
 
 router.post("/getOrder", controllerAdmin.getOrder)
 
-router.post("/pavigationProduct", controllerAdmin.pavigationProduct)
+router.post("/paginationProduct", controllerAdmin.paginationProduct)
 
-router.post("/pavigationUser", controllerAdmin.pavigationUser)
+router.post("/paginationUser", controllerAdmin.paginationUser)
 
-router.post("/pavigationOrder", controllerAdmin.pavigationOrder)
+router.post("/paginationOrder", controllerAdmin.paginationOrder)
 
 router.put("/changePass", controllerAdmin.postChangePass)
 

@@ -55,7 +55,7 @@ async function changePage(page){
     try {
         let username = $("#search").val();
         const res = await $.ajax({
-            url: `/admin/pavigationUser?page=${page}`,
+            url: `/admin/paginationUser?page=${page}`,
             type: "POST",
             data:{
                 username: username

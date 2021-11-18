@@ -246,7 +246,7 @@ module.exports.getProduct = (req, res) => {
     });
 };
 
-module.exports.pavigationProduct = async (req, res) => {
+module.exports.paginationProduct = async (req, res) => {
   try {
     const name = req.body.name;
     const data = await ProductModel.find({
@@ -276,7 +276,7 @@ module.exports.getUser = (req, res) => {
     });
 };
 
-module.exports.pavigationUser = async (req, res) => {
+module.exports.paginationUser = async (req, res) => {
   try {
     const username = req.body.username;
     const data = await accountmodel
@@ -309,7 +309,7 @@ module.exports.getOrder = (req, res) => {
     });
 };
 
-module.exports.pavigationOrder = async (req, res) => {
+module.exports.paginationOrder = async (req, res) => {
   try {
     const idOrder = req.body.idOrder;
     const data = await orderssModel
